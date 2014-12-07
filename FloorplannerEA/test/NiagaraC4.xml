@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Floorplan Version="3.1" CellSize="300" L="32" W="16" H="2" WireObj="0" TempObj="-2762.000000" Sum="-2762.000000">
+    <Blocks>
+        <Block id="1" name="L2_B1" type="1" turn="0" xMin="0.000000" x="10.000000" xMax="28.000000" yMin="0.000000" y="4.000000" yMax="6.000000" zMin="0.000000" z="0.000000" zMax="1.000000" l="4" w="10" h="1" p="0.120000"/>
+        <Block id="2" name="L2_B2" type="1" turn="0" xMin="0.000000" x="10.000000" xMax="28.000000" yMin="0.000000" y="0.000000" yMax="6.000000" zMin="0.000000" z="3.000000" zMax="1.000000" l="4" w="10" h="1" p="0.120000"/>
+        <Block id="3" name="L2_B3" type="1" turn="0" xMin="0.000000" x="12.000000" xMax="28.000000" yMin="0.000000" y="16.000000" yMax="6.000000" zMin="0.000000" z="1.000000" zMax="1.000000" l="4" w="10" h="1" p="0.120000"/>
+        <Block id="4" name="L2_B4" type="1" turn="0" xMin="0.000000" x="0.000000" xMax="28.000000" yMin="0.000000" y="6.000000" yMax="6.000000" zMin="0.000000" z="2.000000" zMax="1.000000" l="4" w="10" h="1" p="0.120000"/>
+        <Block id="5" name="C1" type="0" turn="0" xMin="0.000000" x="26.000000" xMax="26.000000" yMin="0.000000" y="14.000000" yMax="10.000000" zMin="0.000000" z="3.000000" zMax="1.000000" l="6" w="6" h="1" p="4.000000"/>
+        <Block id="6" name="C2" type="0" turn="0" xMin="0.000000" x="26.000000" xMax="26.000000" yMin="0.000000" y="0.000000" yMax="10.000000" zMin="0.000000" z="3.000000" zMax="1.000000" l="6" w="6" h="1" p="4.000000"/>
+        <Block id="7" name="C3" type="0" turn="0" xMin="0.000000" x="0.000000" xMax="26.000000" yMin="0.000000" y="20.000000" yMax="10.000000" zMin="0.000000" z="0.000000" zMax="0.000000" l="6" w="6" h="1" p="4.000000"/>
+        <Block id="8" name="C4" type="0" turn="0" xMin="0.000000" x="26.000000" xMax="26.000000" yMin="0.000000" y="20.000000" yMax="10.000000" zMin="0.000000" z="0.000000" zMax="0.000000" l="6" w="6" h="1" p="4.000000"/>
+        <Block id="9" name="L2_1" type="1" turn="0" xMin="0.000000" x="6.000000" xMax="26.000000" yMin="0.000000" y="16.000000" yMax="12.000000" zMin="0.000000" z="3.000000" zMax="1.000000" l="6" w="4" h="1" p="0.700000"/>
+        <Block id="10" name="L2_2" type="1" turn="0" xMin="0.000000" x="0.000000" xMax="26.000000" yMin="0.000000" y="22.000000" yMax="12.000000" zMin="0.000000" z="3.000000" zMax="1.000000" l="6" w="4" h="1" p="0.700000"/>
+        <Block id="11" name="L2_3" type="1" turn="0" xMin="0.000000" x="26.000000" xMax="26.000000" yMin="0.000000" y="6.000000" yMax="12.000000" zMin="0.000000" z="2.000000" zMax="1.000000" l="6" w="4" h="1" p="0.700000"/>
+        <Block id="12" name="L2_4" type="1" turn="0" xMin="0.000000" x="14.000000" xMax="26.000000" yMin="0.000000" y="10.000000" yMax="12.000000" zMin="0.000000" z="2.000000" zMax="1.000000" l="6" w="4" h="1" p="0.700000"/>
+        <Block id="13" name="Cross1" type="1" turn="0" xMin="0.000000" x="0.000000" xMax="16.000000" yMin="0.000000" y="10.000000" yMax="10.000000" zMin="0.000000" z="0.000000" zMax="1.000000" l="16" w="6" h="1" p="0.900000"/>
+    </Blocks>
+    <Distances>
+        <Distance idFrom="1" idTo="2" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="1" idTo="3" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="1" idTo="4" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="1" idTo="5" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="1" idTo="6" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="1" idTo="7" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="1" idTo="8" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="1" idTo="9" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="1" idTo="10" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="1" idTo="11" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="1" idTo="12" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="1" idTo="13" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="2" idTo="3" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="2" idTo="4" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="2" idTo="5" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="2" idTo="6" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="2" idTo="7" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="2" idTo="8" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="2" idTo="9" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="2" idTo="10" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="2" idTo="11" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="2" idTo="12" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="2" idTo="13" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="3" idTo="4" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="3" idTo="5" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="3" idTo="6" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="3" idTo="7" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="3" idTo="8" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="3" idTo="9" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="3" idTo="13" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="4" idTo="5" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="4" idTo="6" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="4" idTo="7" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="4" idTo="8" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="4" idTo="9" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="4" idTo="10" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="4" idTo="11" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="4" idTo="12" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="4" idTo="13" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="5" idTo="6" dx="0.000000" dy="14.000000" dz="0.000000"/>
+        <Distance idFrom="5" idTo="7" dx="26.000000" dy="6.000000" dz="3.000000"/>
+        <Distance idFrom="5" idTo="8" dx="0.000000" dy="6.000000" dz="3.000000"/>
+        <Distance idFrom="5" idTo="9" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="6" idTo="7" dx="26.000000" dy="20.000000" dz="3.000000"/>
+        <Distance idFrom="6" idTo="8" dx="0.000000" dy="20.000000" dz="3.000000"/>
+        <Distance idFrom="6" idTo="9" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="7" idTo="8" dx="26.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="7" idTo="9" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="7" idTo="13" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="8" idTo="9" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="8" idTo="10" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="8" idTo="11" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="8" idTo="12" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="8" idTo="13" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="9" idTo="10" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="9" idTo="11" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="9" idTo="12" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="9" idTo="13" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="10" idTo="11" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="10" idTo="12" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="10" idTo="13" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="11" idTo="12" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="11" idTo="13" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="12" idTo="17" dx="0.000000" dy="0.000000" dz="0.000000"/>
+        <Distance idFrom="12" idTo="13" dx="0.000000" dy="0.000000" dz="0.000000"/>
+    </Distances>
+    <Couplings>
+        <Coupling idFrom="1" idTo="13"/>
+        <Coupling idFrom="2" idTo="13"/>
+        <Coupling idFrom="3" idTo="13"/>
+        <Coupling idFrom="4" idTo="13"/>
+        <Coupling idFrom="5" idTo="9"/>
+        <Coupling idFrom="6" idTo="10"/>
+        <Coupling idFrom="7" idTo="11"/>
+        <Coupling idFrom="8" idTo="12"/>
+        <Coupling idFrom="9" idTo="13"/>
+        <Coupling idFrom="10" idTo="13"/>
+        <Coupling idFrom="11" idTo="13"/>
+        <Coupling idFrom="12" idTo="13"/>
+        <Coupling idFrom="5" idTo="13"/>
+        <Coupling idFrom="6" idTo="13"/>
+        <Coupling idFrom="7" idTo="13"/>
+        <Coupling idFrom="8" idTo="13"/>
+    </Couplings>
+</Floorplan>

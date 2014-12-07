@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Floorplan Version="5.0" CellSize="600" Length="16" Width="15" NumLayers="3" NumPowerProfiles="1">
+	<Blocks>
+		<Block id="1" name="sm" type="1" xMin="0" x="0" xMax="10" yMin="0" y="0" yMax="7" zMin="0" z="0" zMax="2" l="6" w="8" h="1" dp0="413756.53983410454"/>
+		<Block id="2" name="m0" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="27051.207175925978"/>
+		<Block id="3" name="p0" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="678882.7016460914"/>
+		<Block id="4" name="m1" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="27828.242476851858"/>
+		<Block id="5" name="p1" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="692696.4099794251"/>
+		<Block id="6" name="m2" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="27053.02546296302"/>
+		<Block id="7" name="p2" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="679007.5349794257"/>
+		<Block id="8" name="m3" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="27829.732638888934"/>
+		<Block id="9" name="p3" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="692764.9166666699"/>
+		<Block id="10" name="m4" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="27056.527777777745"/>
+		<Block id="11" name="p4" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="679050.4099794244"/>
+		<Block id="12" name="m5" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="27833.49016203709"/>
+		<Block id="13" name="p5" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="692805.3287037056"/>
+		<Block id="14" name="m6" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="27056.84201388888"/>
+		<Block id="15" name="p6" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="679062.8461934176"/>
+		<Block id="17" name="p7" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="692817.4526748998"/>
+		<Block id="16" name="m7" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="27833.66724537039"/>
+		<Block id="19" name="p8" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="716776.3209876567"/>
+		<Block id="18" name="m8" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="27527.927662037095"/>
+		<Block id="21" name="p9" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="730457.8837448572"/>
+		<Block id="20" name="m9" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="28299.469328703726"/>
+		<Block id="23" name="p10" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="716726.8683127576"/>
+		<Block id="22" name="m10" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="26999.147569444474"/>
+		<Block id="25" name="p11" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="730401.2227366269"/>
+		<Block id="24" name="m11" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="27771.118634259292"/>
+		<Block id="27" name="p12" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="848751.7885802469"/>
+		<Block id="26" name="m12" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="24454.847222222277"/>
+		<Block id="29" name="p13" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="862421.2325102914"/>
+		<Block id="28" name="m13" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="25226.215856481525"/>
+		<Block id="31" name="p14" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="848873.963477369"/>
+		<Block id="30" name="m14" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="24461.115162037073"/>
+		<Block id="34" name="m16" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="20530.213541666697"/>
+		<Block id="35" name="p16" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="884269.891460906"/>
+		<Block id="32" name="m15" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="25234.6186342593"/>
+		<Block id="33" name="p15" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="862624.734053501"/>
+		<Block id="38" name="m18" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="20528.649884259274"/>
+		<Block id="39" name="p18" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="884242.1167695508"/>
+		<Block id="36" name="m17" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="21301.583912037055"/>
+		<Block id="37" name="p17" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="897939.3353909501"/>
+		<Block id="42" name="m20" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="17871.89988425929"/>
+		<Block id="43" name="p20" type="0" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="13" zMin="0" z="0" zMax="2" l="2" w="2" h="1" dp0="156179.86689814797"/>
+		<Block id="40" name="m19" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="21300.42592592594"/>
+		<Block id="41" name="p19" type="0" xMin="0" x="0" xMax="13" yMin="0" y="0" yMax="12" zMin="0" z="0" zMax="2" l="3" w="3" h="1" dp0="897911.3518518553"/>
+		<Block id="46" name="m22" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="31972.958333333365"/>
+		<Block id="47" name="p22" type="0" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="13" zMin="0" z="0" zMax="2" l="2" w="2" h="1" dp0="190640.42824074035"/>
+		<Block id="44" name="m21" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="25128.612268518576"/>
+		<Block id="45" name="p21" type="0" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="13" zMin="0" z="0" zMax="2" l="2" w="2" h="1" dp0="185564.72106481442"/>
+		<Block id="51" name="p24" type="0" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="13" zMin="0" z="0" zMax="2" l="2" w="2" h="1" dp0="215587.85416666683"/>
+		<Block id="50" name="m24" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="25538.070023148237"/>
+		<Block id="49" name="p23" type="0" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="13" zMin="0" z="0" zMax="2" l="2" w="2" h="1" dp0="246592.10763888917"/>
+		<Block id="48" name="m23" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="42678.225694444336"/>
+		<Block id="55" name="p26" type="0" xMin="0" x="0" xMax="12" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="4" w="4" h="1" dp0="118072.9898726852"/>
+		<Block id="54" name="m26" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="9561.244212963007"/>
+		<Block id="53" name="p25" type="0" xMin="0" x="0" xMax="12" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="4" w="4" h="1" dp0="117775.36429398127"/>
+		<Block id="52" name="m25" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="9520.210648148211"/>
+		<Block id="59" name="p28" type="0" xMin="0" x="0" xMax="12" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="4" w="4" h="1" dp0="130779.19733796363"/>
+		<Block id="58" name="m28" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="3259.3686342592637"/>
+		<Block id="57" name="p27" type="0" xMin="0" x="0" xMax="12" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="4" w="4" h="1" dp0="114078.03848379629"/>
+		<Block id="56" name="m27" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="7424.974537037069"/>
+		<Block id="61" name="p29" type="0" xMin="0" x="0" xMax="12" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="4" w="4" h="1" dp0="130778.87818287102"/>
+		<Block id="60" name="m29" type="1" xMin="0" x="0" xMax="14" yMin="0" y="0" yMax="11" zMin="0" z="0" zMax="2" l="2" w="4" h="1" dp0="2139.4531250000045"/>
+	</Blocks>
+	<Couplings>
+		<Coupling idFrom="3" idTo="1"/>
+		<Coupling idFrom="3" idTo="2"/>
+		<Coupling idFrom="5" idTo="1"/>
+		<Coupling idFrom="5" idTo="4"/>
+		<Coupling idFrom="7" idTo="1"/>
+		<Coupling idFrom="7" idTo="6"/>
+		<Coupling idFrom="9" idTo="1"/>
+		<Coupling idFrom="9" idTo="8"/>
+		<Coupling idFrom="11" idTo="1"/>
+		<Coupling idFrom="11" idTo="10"/>
+		<Coupling idFrom="13" idTo="1"/>
+		<Coupling idFrom="13" idTo="12"/>
+		<Coupling idFrom="15" idTo="1"/>
+		<Coupling idFrom="15" idTo="14"/>
+		<Coupling idFrom="17" idTo="16"/>
+		<Coupling idFrom="17" idTo="1"/>
+		<Coupling idFrom="19" idTo="1"/>
+		<Coupling idFrom="19" idTo="18"/>
+		<Coupling idFrom="21" idTo="1"/>
+		<Coupling idFrom="21" idTo="20"/>
+		<Coupling idFrom="23" idTo="1"/>
+		<Coupling idFrom="23" idTo="22"/>
+		<Coupling idFrom="25" idTo="1"/>
+		<Coupling idFrom="25" idTo="24"/>
+		<Coupling idFrom="27" idTo="1"/>
+		<Coupling idFrom="27" idTo="26"/>
+		<Coupling idFrom="29" idTo="1"/>
+		<Coupling idFrom="29" idTo="28"/>
+		<Coupling idFrom="31" idTo="1"/>
+		<Coupling idFrom="31" idTo="30"/>
+		<Coupling idFrom="35" idTo="34"/>
+		<Coupling idFrom="35" idTo="1"/>
+		<Coupling idFrom="33" idTo="1"/>
+		<Coupling idFrom="33" idTo="32"/>
+		<Coupling idFrom="39" idTo="1"/>
+		<Coupling idFrom="39" idTo="38"/>
+		<Coupling idFrom="37" idTo="1"/>
+		<Coupling idFrom="37" idTo="36"/>
+		<Coupling idFrom="43" idTo="1"/>
+		<Coupling idFrom="43" idTo="42"/>
+		<Coupling idFrom="41" idTo="1"/>
+		<Coupling idFrom="41" idTo="40"/>
+		<Coupling idFrom="47" idTo="1"/>
+		<Coupling idFrom="47" idTo="46"/>
+		<Coupling idFrom="45" idTo="1"/>
+		<Coupling idFrom="45" idTo="44"/>
+		<Coupling idFrom="51" idTo="50"/>
+		<Coupling idFrom="51" idTo="1"/>
+		<Coupling idFrom="49" idTo="1"/>
+		<Coupling idFrom="49" idTo="48"/>
+		<Coupling idFrom="55" idTo="1"/>
+		<Coupling idFrom="55" idTo="54"/>
+		<Coupling idFrom="53" idTo="1"/>
+		<Coupling idFrom="53" idTo="52"/>
+		<Coupling idFrom="59" idTo="1"/>
+		<Coupling idFrom="59" idTo="58"/>
+		<Coupling idFrom="57" idTo="1"/>
+		<Coupling idFrom="57" idTo="56"/>
+		<Coupling idFrom="61" idTo="1"/>
+		<Coupling idFrom="61" idTo="60"/>
+	</Couplings>
+	<ThermalVias>
+	</ThermalVias>
+</Floorplan>
