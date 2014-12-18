@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Floorplanning Multi-objective Evolutionary Algorithm by ignacioarnaldo</title>
+    <title>Thermal-aware 3D floorplanner by ignacioarnaldo</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -17,7 +17,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Floorplanning Multi-objective Evolutionary Algorithm</h1>
+        <h1>Thermal-aware 3D floorplanner</h1>
         <p>C++/CUDA code of the Direct Mapping floorplanner</p>
         <p class="view"><a href="https://github.com/ignacioarnaldo/floorplanning">View the Project on GitHub <small>ignacioarnaldo/floorplanning</small></a></p>
         <ul>
@@ -28,13 +28,42 @@
       </header>
       <section>
 
+<p>We introduce Direct Mapping, a new floorplanner suitable for the thermal optimization of large 3D Multiprocessor Systems-on-Chips (3D MPSoCs). Below we show an example of a thermal optimization of a Niagara architecture composed of 48 cores distributed in 4 layers:</p>
+
+<TABLE>
+    <TR>
+	<TD>Architecture</TD>
+	<TD><center>Layer 1</center></TD>
+	<TD><center>Layer 2</center></TD>
+        <TD><center>Layer 3</center></TD>
+        <TD><center>Layer 4</center></TD>
+    </TR>
+    <TR>
+	<TD>Original</TD>
+	<TD><center><img width="200" height="150" src="images/l148or.jpg" alt="l1or" Vspace="1"></center></TD>
+	<TD><center><img width="200" height="150" src="images/l248or.jpg" alt="l2or" Vspace="1"></center></TD>
+	<TD><center><img width="200" height="150" src="images/l348or.jpg" alt="l3or" Vspace="1"></center></TD>
+	<TD><center><img width="200" height="150" src="images/l448or.jpg" alt="l4or" Vspace="1"></center></TD>
+    </TR>
+    <TR>
+	<TD>Optimized</TD>
+	<TD><center><img width="200" height="150" src="images/l148.jpg" alt="l1" Vspace="1"></center></TD>
+	<TD><center><img width="200" height="150" src="images/l248.jpg" alt="l2" Vspace="1"></center></TD>
+	<TD><center><img width="200" height="150" src="images/l348.jpg" alt="l3"  Vspace="1"></center></TD>
+	<TD><center><img width="200" height="150" src="images/l448.jpg" alt="l4" Vspace="1"></center></TD>
+    </TR>
+</TABLE>
+
+
+<h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Background</h3>
+
 <p>Three-dimensional (3D) integration is widely recognized as today’s most promising alternative to provide increased performance and chip footprint reduction
 for multi-core processors. The performance improvement is allowed by a decreased total wiring length, and thus reduced interconnect delay times, and heterogeneous
-many-core integration. However, in 3D scenarios, power density increases linearly with the number of layers leading to significant thermal issues that negatively affect the reliability and lifetime of integrated circuits. We propose a new floorplanner suitable for the thermal optimization of large 3D Multiprocessor Systems-on-Chips (3D MPSoCs), outperforming the results obtained with state-of-the-art proposals.</p>
+many-core integration. However, in 3D scenarios, power density increases linearly with the number of layers leading to significant thermal issues that negatively affect the reliability and lifetime of integrated circuits.</p>
 
 <h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Algorithm</h3>
 
-<p><a href="dmalgorithm.html">The direct mapping floorplanner</a></p>
+<p><a href="dmalgorithm.html">Direct Mapping overview</a></p>
 
 <h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Results</h3>
 
