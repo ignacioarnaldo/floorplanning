@@ -32,53 +32,9 @@
 for multi-core processors. The performance improvement is allowed by a decreased total wiring length, and thus reduced interconnect delay times, and heterogeneous
 many-core integration. However, in 3D scenarios, power density increases linearly with the number of layers leading to significant thermal issues that negatively affect the reliability and lifetime of integrated circuits. We propose a new floorplanner suitable for the thermal optimization of large 3D Multiprocessor Systems-on-Chips (3D MPSoCs), outperforming the results obtained with state-of-the-art proposals.</p>
 
-<h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Representation</h3>
+<h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Algorithm</h3>
 
-We introduce a novel representation suitable for fixed-outline floorplanning problems
-that allows a direct mapping of the individuals into configurations of the architecture.
-The example below shows a 2-layer architecture composed of 3 cores (C1,C2,C3) and 3
-memories (M1,M2,M3). Each component of the architecture is characterized with a coordinate and a
-boolean flag. The coordinate determines the location of the left-bottom corner of the
-element while the flag indicates whether or not the given element is rotated. Note that a component can occupy several cells. 
-With this representation, the decoding of the
-solutions is direct and does not require a placement heuristic.
-
-<center><img src="images/representationNew.png" alt="ALFA" align="middle" Vspace="45" width="500px"></center></p>
-
-<h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Multi-Objective Search</h3>
-
-<p>The released thermal-aware floorplanner is based on <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=996017&isnumber=21497">Non-Dominated Sorting Genetic Algorithm-II</a>, a well-known Multi-Objective Evolutionary Algorithm. Candidate solutions are evaluated according to the three following objectives:</p>
-<ol>
-<li>The number of topological constraints violated (partial overlapping between different blocks and components partly out of the borders of the chip).</li>
-<li>The wire length approximated with the sum of the Manhattan distances between interconnected blocks.</li>
-<li>The temperature of the chip.</li>
-</ol>
-
-<h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Crossover</h3>
-
-<p>The crossover operator is based on a Single-Point crossover, in which two children (<em>Child1</em> and <em>Child2</em>) are obtained from the selected
-parents <em>Parent1</em> and <em>Parent2</em>:</p>
-<ol>
-<li>We randomly select a point in <em>[1..size]</em>, where size is the number of components of the architecture.</lo>
-<li>Then, the components <em>Ci</em> of <em>Parent1</em> and <em>Parent2</em> such that <em>point≥i</em> are copied into <em>Child1</em> and 
-<em>Child2</em> respectively.</li>
-<li>Finally, the locations of the components <em>Cj</em> such that <em>j ≥ point</em> of <em>Parent1</em> have to be transmitted to <em>Child2</em> 
-while <em>Child1</em> must inherite from <em>Parent2</em>. If any of these components overlaps with an already placed block, then such component is assigned the coordinate and rotation flag of the other parent. If none of these two options leads to a feasible configuration, then the block is relocated according to a
-First Fit strategy.</li>
-
-<center><img src="images/crossover.png" alt="ALFA" align="middle" Vspace="45" width="500px"></center></p>
-
-<h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mutation</h3>
-
-<p>The mutation of the solutions is performed in three ways, each with the same probability.</p>
-<ol>
-<li>Swapping the position of two elements of the chromosome, resulting in a change of the placement of the two involved components.</li>
-<li>Rotation of a component.</li>
-<li>Randomly moving a component one cell in one of the following directions: up, down, left, right, forward, and backwards.</li>
-</ol>
-
-
-<center><img src="images/mutation.png" alt="ALFA" align="middle" Vspace="45" width="500px"></center></p>
+<p><a href="dmalgorithm.html">The direct mapping floorplanner</a></p>
 
 <h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Results</h3>
 
@@ -88,6 +44,7 @@ First Fit strategy.</li>
 
 
 <h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tutorial</h3>
+
 
 
 
